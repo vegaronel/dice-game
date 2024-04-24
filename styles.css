@@ -1,4 +1,6 @@
+
 .container {
+  
   width: 70%;
   margin: auto;
   text-align: center;
@@ -40,14 +42,23 @@ footer {
 
 }
 
+.btn{
+cursor: pointer;
+  width: 200px;
+  height: 50px;
+  margin: 20px auto 20px;
+  border-radius: 10px;
+ background-color:rgb(113, 116, 209);
+ font-size: 18px;
+ color: white;
+ border: none;
 
-.btnRoll{
+}.btn:hover{
+  background-color:rgb(172, 174, 218);
+}
+
+
+.text{
+  font-size: 200px;
   
-  margin-top: 50px;
- width: 150px;
- height: 50px;
- border-radius: 10px;
- border-style: none;
- font-size: 1rem;
-
 }
